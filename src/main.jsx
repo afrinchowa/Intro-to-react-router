@@ -14,6 +14,7 @@ import UserDetails from './UserDetails/UserDetails.jsx';
 import Posts from './Posts/Posts.jsx';
 import PostDetails from './PostDetails/PostDetails.jsx';
 import ErrorPage from './ErrorPage/ErrorPage.jsx';
+import Details from './Details/Details.jsx';
 
 const router =  createBrowserRouter([
   {
@@ -28,6 +29,10 @@ const router =  createBrowserRouter([
       {
         path:'/contact',
         element: <Contact></Contact>
+      },
+      {
+        path:'/details',
+        element: <Details></Details>
       },
       {
         path:'/users',
